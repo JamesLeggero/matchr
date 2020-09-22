@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.threeParts {
+    display: flex;
+    flex: 1
+}
+
+.main {
+    flex: 1;
+    width: 800px;
+}
+
+.left, .right {
+    flex: 0 0 12em
+}
+
+.left {
+    order: -1
+}
